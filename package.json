@@ -1,19 +1,25 @@
 {
-  "name": "stay-alive",
-  "version": "1.0.0",
-  "description": "",
-  "main": "engine5.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rezio3/Stay-Alive-2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rezio3/Stay-Alive-2/issues"
-  },
-  "homepage": "https://github.com/rezio3/Stay-Alive-2#readme"
+	"homepage": "https://github.com/rezio3/Stay-Alive-2#readme",
+	"name": "stay-alive",
+	"version": "1.0.0",
+	"description": "",
+	"main": "engine5.js",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build --public-url .",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rezio3/Stay-Alive-2.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rezio3/Stay-Alive-2/issues"
+	},
+	"devDependencies": {
+		"parcel": "^2.9.1"
+	}
 }
