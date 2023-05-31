@@ -2,8 +2,8 @@
 	"homepage": "https://github.com/rezio3/Stay-Alive-2#readme",
 	"name": "stay-alive",
 	"version": "1.0.0",
+	"source": "index.html",
 	"description": "",
-	"main": "engine5.js",
 	"scripts": {
 		"start": "parcel",
 		"build": "parcel build --public-url .",
