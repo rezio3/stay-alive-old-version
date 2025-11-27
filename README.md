@@ -1,6 +1,6 @@
 # Website
 
-https://stayaliveboardgame.prv.pl/
+https://rezio3.github.io/stay-alive-old-version/
 
 **this is only desktop version**
 
