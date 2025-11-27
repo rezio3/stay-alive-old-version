@@ -626,7 +626,8 @@ roundEndButton.addEventListener(`click`, () => {
 
   console.log("round: " + round);
   if (round == 2) {
-    for (eventArrayCount = [], i = 0; i < 20; ++i) {
+    eventArrayCount = [];
+    for (let i = 0; i < 20; i++) {
       eventArrayCount[i] = i;
     }
     shuffle(eventArrayCount);
