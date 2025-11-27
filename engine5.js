@@ -1211,7 +1211,7 @@ function firePlace() {
     }
     console.log("sejmitar: " + sejmitar);
 
-    fireRoll = Math.floor(Math.random() * 5);
+    let fireRoll = Math.floor(Math.random() * 5);
     // ----------------
 
     // ----------------
